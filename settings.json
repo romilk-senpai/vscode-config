@@ -1,9 +1,9 @@
 {
     "editor.bracketPairColorization.enabled": false,
     "editor.fontFamily": "Hack",
-    "editor.fontSize": 18,
-    "terminal.integrated.fontSize": 18,
-    "window.zoomLevel": 1.5,
+    "editor.fontSize": 24,
+    "terminal.integrated.fontSize": 24,
+    "editor.lineHeight": 32,
     "workbench.colorTheme": "DarkRoy 2",
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
@@ -15,11 +15,32 @@
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.scrollbar.horizontalScrollbarSize": 0,
-    "window.density.editorTabHeight": "compact",
     "workbench.activityBar.location": "hidden",
     "terminal.integrated.inheritEnv": true,
     "terminal.integrated.tabs.enabled": true,
     "terminal.external.linuxExec": "konsole",
     "workbench.startupEditor": "none",
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "window.density.editorTabHeight": "compact",
+    "apc.parts.font.family": {
+        "sidebar": "Hack",
+    },
+    "apc.listRow": {
+        "fontSize": 24,
+        "height": 32,
+    },
+    "apc.stylesheet": {
+        ".monaco-workbench .part.panel.bottom .composite.title ": "height: 0px",
+        ".monaco-icon-label>.monaco-icon-label-container": "overflow-x: clip; overflow-y: visible;",
+        ".show-file-icons .file-icon::before": "width: auto;"
+    },
+    "workbench.colorCustomizations": {
+        "editorOverviewRuler.border": "#00000000",
+        "panelTitle.activeBorder": "#ffffff",
+    },
+    "extensions.autoUpdate": false,
+    "update.mode": "none",
+    "apc.sidebar.titlebar": {
+        "width": 250
+    }
 }
