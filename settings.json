@@ -23,20 +23,20 @@
     "git.openRepositoryInParentFolders": "always",
     "window.density.editorTabHeight": "compact",
     "apc.parts.font.family": {
-        "sidebar": "Hack",
+        "sidebar": "Hack"
     },
     "apc.listRow": {
         "fontSize": 24,
-        "height": 32,
+        "height": 32
     },
     "apc.stylesheet": {
         ".monaco-workbench .part.panel.bottom .composite.title ": "height: 0px",
         ".monaco-icon-label>.monaco-icon-label-container": "overflow-x: clip; overflow-y: visible;",
-        ".show-file-icons .file-icon::before": "width: auto;"
+        ".show-file-icons .file-icon::before": "min-width: fit-content;"
     },
     "workbench.colorCustomizations": {
         "editorOverviewRuler.border": "#00000000",
-        "panelTitle.activeBorder": "#ffffff",
+        "panelTitle.activeBorder": "#ffffff"
     },
     "extensions.autoUpdate": false,
     "update.mode": "none",
